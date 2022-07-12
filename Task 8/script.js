@@ -7,8 +7,8 @@ division(a, b) - priima du skaičius ir grąžina jų dalybos rezultatą;
 ------------------------------------------------------------------------------------ */
 
 function Calculator (a, b) {
-    this.a = (a);
-    this.b = (b);
+    this.a = a;
+    this.b = b;
 
     this.sum = function() {
         return this.a + this.b;
