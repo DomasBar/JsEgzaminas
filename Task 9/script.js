@@ -18,7 +18,7 @@ class Movie {
         this.budget = Number(budget);
     }
     wasExpensive() {
-        const { title, director, budget } = this;
+        const {budget} = this;
         if(budget > 100000000) {
             console.log(true)
         }

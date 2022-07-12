@@ -7,8 +7,8 @@ division(a, b) - priima du skaičius ir grąžina jų dalybos rezultatą;
 ------------------------------------------------------------------------------------ */
 
 function Calculator (a, b) {
-    this.a = Number(a);
-    this.b = Number(b);
+    this.a = (a);
+    this.b = (b);
 
     this.sum = function() {
         return this.a + this.b;
@@ -23,17 +23,20 @@ function Calculator (a, b) {
         return this.a / this.b;
       };
 }
-const suma = new Calculator()
-console.log(suma.sum(1,3))
+let suma  = new Calculator(1, 3)
+console.log(suma.sum())
 
-const sub = new Calculator()
-console.log(sub.subs(5,1))
+const sub = new Calculator(6,1)
+console.log(sub.subs())
 
-const multiply = new Calculator()
-console.log(multiply.multi(2,5))
+const multiply = new Calculator(5,3)
+console.log(multiply.multi())
 
-const divis = new Calculator()
-console.log(divis.division(20,3))
+const divis = new Calculator(20, 2)
+console.log(divis.division())
+
+
+
 
 
 

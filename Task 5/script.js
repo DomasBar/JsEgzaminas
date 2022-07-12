@@ -22,6 +22,7 @@ const users = [
 
 
 // 1 Uzd
+
 const filterDogOwner = () => {
   const user = users.filter(d => d.hasDog === true);
   console.log(user)
@@ -30,6 +31,7 @@ filterDogOwner();
 
 
 // 2 Uzd
+
 function filterAdults() {
   const adults = users.filter(person => person.age >= 18);
   console.log(adults);

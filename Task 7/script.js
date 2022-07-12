@@ -11,6 +11,7 @@ const audi = {
   color: 'white',
 };
 
+// 1 Sprendimas
 
 function showObjectKeys() {
   let keys = Object.keys(audi);
@@ -18,10 +19,9 @@ function showObjectKeys() {
 }
 showObjectKeys();
 
+// 2 sprendimas
 
-// function showObjectKeys() {
-//   let keys = [], i = 0;
-//   for (keys[i++] in audi) {}
-//   console.log(keys)
-// }
-// showObjectKeys();
+// const showObjectKeys = (key) => Object.keys(key);
+// console.log(showObjectKeys(audi));
+
+

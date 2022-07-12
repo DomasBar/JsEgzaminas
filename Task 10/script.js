@@ -2,10 +2,10 @@
 Sutvarkykite užduoties "Task 10" esančius failus taip, kad veiktų žemiau pateiktos funkcijos.
 -------------------------------------------------------------------------------------------- */
 
-const composition = './numbers/numbers.js'
-const division = './numbers/numbers.js'
-const multiplication = './numbers/numbers.js'
-const substraction = './numbers/numbers.js'
+const composition = './math/composition.js'
+const division = './math/division.js'
+const multiplication = './math/multiplication.js'
+const substraction = './math/numbers.js'
 
 const numbers = './numbers/numbers.js'
 
