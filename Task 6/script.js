@@ -22,18 +22,12 @@ const users = [
 
 // Uzd 1
 
-function getUserAverageAge() {
-  let total = 0;
-  let count = 0;
 
-  users.forEach(function(item) {
-      total += item.age;
-      count++;
-  });
-  return total / count;
+function getUserAverageAge(age) {
+  const average = age.reduce((total, value) => value.age + total, 0) / age.length;
+  console.log(average.toFixed(2));
 }
-
-console.log(getUserAverageAge().toFixed(0));
+getUserAverageAge(users);
 
 
 // Uzd 2
@@ -46,16 +40,6 @@ const getUserNames = () => {
 getUserNames();
 
 
-
-
-
-// function getUsersNames() {
-//   const results = users.filter(el => {
-//     return el.name;
-//   });
-//   console.log(results);
-// }
-// getUsersNames();
 
 
 
