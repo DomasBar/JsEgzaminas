@@ -22,18 +22,18 @@ const users = [
 
 // Uzd 1
 
-const getUserAverageAge = (arr = []) => {
-  const { sum, count } = arr.reduce((acc, val) => {
-     let { sum, count } = acc;
-     sum += val.age;
-     count++;
-     return { sum, count };
-     }, {
-        sum: 0, count: 0
+function getUserAverageAge() {
+  let total = 0;
+  let count = 0;
+
+  users.forEach(function(item) {
+      total += item.age;
+      count++;
   });
-  return (sum / (count || 1)).toFixed(0);
-};
-console.log(getUserAverageAge(users));
+  return total / count;
+}
+
+console.log(getUserAverageAge().toFixed(0));
 
 
 // Uzd 2

@@ -33,6 +33,8 @@ function getUsers() {
 
             divas.style.border = 'black solid 2px';
             divas.style.marginTop = '1rem';
+            divas.style.backgroundColor = 'lightyellow'
+            
 
             let image = document.createElement('img');
             divas.appendChild(image);

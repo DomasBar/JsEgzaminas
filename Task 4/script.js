@@ -9,6 +9,9 @@ Pastaba: Sukurta kortelė, kurioje yra informacija apie automobilį (brand), tur
 turėti bent minimalų stilių ir būti responsive;
 -------------------------------------------------------------------------- */
 
+
+// TIK PER LIVE SERVER
+
 const ENDPOINT = 'cars.json';
 const output = document.getElementById('output');
 
