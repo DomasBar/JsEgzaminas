@@ -17,7 +17,7 @@ let form = document.querySelector('form').addEventListener('submit', function(e)
 
    let input =  document.getElementById("search").value;
    let Lb = input * 2.2046;
-   let G = input * 0.001;
+   let G = input / 0.001;
    let Oz = input * 35.274;
 
    function getWeight(){
